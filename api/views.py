@@ -3,5 +3,5 @@ from django.http import JsonResponse
 
 
 def index(request):
-    response = {'status': '200 ok'}
+    response = {'status': '200'}
     return JsonResponse(response)
