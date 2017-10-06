@@ -21,7 +21,5 @@ def index(request):
                 is_superuser=False
             )
 
-
-
     response = {'status': '200'}
     return JsonResponse(response)
